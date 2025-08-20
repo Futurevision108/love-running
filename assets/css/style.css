@@ -202,6 +202,24 @@ main {
     margin: 5px 0;
 }
 
+#circle-cover-bg {
+   background: url('../images/reasons-image.webp') no-repeat top center/cover;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom:20px;
+    /* Makes the square into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+
+}
+#benefits-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
   /*Footer*/
   footer {
     display: flex;
